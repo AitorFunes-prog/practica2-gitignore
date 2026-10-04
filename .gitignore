@@ -1,0 +1,9 @@
+# Ignorar todo en dir1 excepto info.txt
+dir1/*
+!dir1/info.txt
+
+# Ignorar todos los .txt de dir2
+dir2/*.txt
+
+# Ignorar todos los .txt de dir3 y sus subcarpetas
+dir3/**/*.txt
